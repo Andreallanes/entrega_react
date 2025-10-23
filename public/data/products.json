@@ -1,0 +1,74 @@
+[
+    {
+        "id": "1",
+        "name": "Vestido de dama",
+        "price": 4500,
+        "category": "dama",
+        "description": "Vestido de dama para cocktail, todos los talles y colores.",
+        "imageUrl": "/images/vestido-dama.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Remera de dama",
+        "price": 3200,
+        "category": "dama",
+        "description": "Remera de dama de algodón, todos los talles y colores.",
+        "imageUrl": "/images/remera-dama.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Short de dama",
+        "price": 1200,
+        "category": "dama",
+        "description": "Short de dama, todos los talles y colores.",
+        "imageUrl": "/images/short-dama.jpg"
+    },
+    {
+       "id": "4",
+        "name": "Remera de niña",
+        "price": 4200,
+        "category": "girl",
+        "description": "Remera de niña de algodón, todos los talles.",
+        "imageUrl": "/images/remera-niña.jpg"
+    },
+    {
+       "id": "5",
+        "name": "Short de niña",
+        "price": 1500,
+        "category": "girl",
+        "description": "Short de niña de algodón, todos los talles.",
+        "imageUrl": "/images/short-niña.jpg"
+    },
+    {
+       "id": "6",
+        "name": "Vestido de niña",
+        "price": 6000,
+        "category": "girl",
+        "description": "Vestido niña para evento, todos los talles.",
+        "imageUrl": "/images/vestido-niña.jpg"
+    },
+    {
+       "id": "7",
+        "name": "Short de niño",
+        "price": 1500,
+        "category": "boy",
+        "description": "Short de niño para playa, todos los talles.",
+        "imageUrl": "/images/short-niño.jpg"
+    },
+    {
+       "id": "8",
+        "name": "Remera de niño",
+        "price": 4200,
+        "category": "boy",
+        "description": "Remera de niño de algodón, todos los talles.",
+        "imageUrl": "/images/remera-niño.jpg"
+    },
+    {
+       "id": "7",
+        "name": "Traje de niño",
+        "price": 6000,
+        "category": "boy",
+        "description": "Traje de niño para evento, todos los talles.",
+        "imageUrl": "/images/traje-niño.jpg"
+    }
+]

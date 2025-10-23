@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    background-color: #d6a0fb;
+    width:100%;   
+    height: auto; 
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    width: 20 rem;
+    height: auto;
+}
+
+
+
+

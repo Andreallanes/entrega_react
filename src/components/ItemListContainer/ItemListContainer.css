@@ -1,0 +1,19 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    background-color: #d6a0fb;
+    width:100%;   
+    height: auto; 
+    align-items: center;
+    justify-content: center;
+    top: 150px;
+    left: 0;
+    position: absolute;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}

@@ -1,0 +1,23 @@
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    background-color: #d6a0fb;
+    width: 100%;   
+    height: auto; 
+    align-items: center;
+    justify-content: center;
+    top: 1650px;
+    left: 0;
+    position: absolute;
+}
+
+.contenedor_footer {
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+    padding: 5px;
+    align-items: center;
+    width: 100%;
+}
+
