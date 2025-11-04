@@ -22,6 +22,7 @@ function App() {
             element = {<ItemListContainer titulo={"Bienvenidos"}/> }
             />
             <Route path ="/detail/:id" element= {<ItemDetailContainer/>}/>
+            <Route path ="/carrito" element={<h1>Carrito</h1>} />
           </Routes>
         <Footer />
       </div>    
