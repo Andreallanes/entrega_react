@@ -13,7 +13,7 @@ function App() {
   return (
     <>
     <BrowserRouter>
-      <div>
+      <div className='contenedor'>
         <Header/>
         <CartProvider>
           <Nav />

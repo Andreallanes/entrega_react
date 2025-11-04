@@ -1,0 +1,13 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    background-color: #d6a0fb;
+    width:100%;   
+    height: auto; 
+    align-items: center;
+    justify-content: center;
+    top: 150px;
+    left: 0;
+    position: absolute;
+}

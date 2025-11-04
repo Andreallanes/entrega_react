@@ -26,7 +26,7 @@ export const ItemDetailContainer = () => {
                 throw new Error ("Producto no encontrado");
             }        
         })
-        .cath ((err) => {
+        .catch ((err) => {
             console.log (err);
         });
     }, [id]);
