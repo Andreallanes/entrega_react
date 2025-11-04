@@ -13,10 +13,9 @@ function App() {
   return (
     <>
     <BrowserRouter>
-      <div className='contenedor'>
-        <Header/>
-        <CartProvider>
-          <Nav />
+      <CartProvider>
+        <div className='contenedor'>
+          <Header/>      
           <Routes>
             <Route
             path="/"
@@ -24,9 +23,9 @@ function App() {
             />
             <Route path ="/detail/:id" element= {<ItemDetailContainer/>}/>
           </Routes>
-        </CartProvider>
         <Footer />
       </div>    
+      </CartProvider>
     </BrowserRouter>
     </>
   );

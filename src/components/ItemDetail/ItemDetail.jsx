@@ -7,12 +7,7 @@ export const ItemDetail = ({ detail }) => {
 
     return (
         <Item {...detail}>
-            <button onClick = {() => {
-                addItem (detail);
-            }}
-            >
-                Enviar al carrito
-            </button>
+            <button onClick = {() => addItem (detail)}>Enviar al carrito</button>
         </Item>
     );
 };

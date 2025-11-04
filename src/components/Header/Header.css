@@ -6,7 +6,7 @@ header {
     width:100%;   
     height: auto; 
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     top: 0;
     left: 0;
     position: absolute;
@@ -18,10 +18,7 @@ header {
     margin: 5px;
     padding: 5px;
     align-items: center;
+    justify-content: space-between;
     width: 100%;
 }
 
-.logo {
-    width: ;
-    height: auto;
-}

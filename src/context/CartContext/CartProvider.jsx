@@ -5,7 +5,7 @@ export const CartProvider = ({children}) => {
     const [cart, setCart] = useState([]);
 
     const exists = (id) => {
-        const exist = cart.some(p => p.id === id)
+        const exist = cart.some((p) => p.id === id);
         return exist;
     };
 
