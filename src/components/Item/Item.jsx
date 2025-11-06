@@ -4,7 +4,7 @@ import "./Item.css";
 export const Item = ({ name, price, description, imageUrl, children }) => {
 
   return (
-    <div class="contenedor_item">
+    <div className="contenedor_item">
       <article className="product-item">
         <img src={imageUrl} alt={description} />
         <h2 className="product-title">{name}</h2>

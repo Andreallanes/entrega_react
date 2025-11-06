@@ -8,7 +8,7 @@ export const Nav = () => {
     const { getTotalItems } = useCartContext();
 
     return (
-        <nav class="contenedor_nav">
+        <nav className="contenedor_nav">
             <ul>
                 <li>
                     <Link to={"/"}>Inicio</Link>

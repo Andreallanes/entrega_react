@@ -1,13 +1,13 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Header } from './components/Header/Header';
-import { Nav } from './components/Nav/Nav';
 import { ItemListContainer } from './components/ItemListContainer/ItemListContainer';
 import { ItemDetailContainer } from './components/ItemDetailContainer/ItemDetailContainer';
-import { Footer } from './components/Footer/Footer';
+// import { Footer } from './components/Footer/Footer';
 import { CartProvider } from './context/CartContext/CartProvider';
 import { Cart } from './components/Cart/Cart';
 
 import './App.css';
+import { ProductFormContainer } from './components/adminComponents/ProductFormContainer/ProductFormContainer';
 
 function App() {
 
@@ -28,6 +28,7 @@ function App() {
               />
               <Route path ="/detail/:id" element= {<ItemDetailContainer/>}/>
               <Route path ="/carrito" element={<Cart/>} />
+              <Route path ="/admin" element={<ProductFormContainer/>} />
           </Routes>
           {/* <Footer/> */}
       </div>    
