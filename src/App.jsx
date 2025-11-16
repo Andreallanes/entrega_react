@@ -8,6 +8,10 @@ import { Cart } from './components/Cart/Cart';
 
 import './App.css';
 import { ProductFormContainer } from './components/adminComponents/ProductFormContainer/ProductFormContainer';
+import { MainLayout } from './layouts/MainLayout';
+import { AdminLayout } from "./layouts/AdminLayout";
+import { RutaProtegida } from './components/RutaProtegida/RutaProtegida';
+import { Login } from './Login/Login';
 
 function App() {
 
@@ -16,8 +20,9 @@ function App() {
     <BrowserRouter>
       <CartProvider>
         <div className='contenedor'>
-          <Header/>      
+           
           <Routes>
+            <Route element ={<MainLayout/>} >
               <Route
                 path="/"
                 element = {<ItemListContainer titulo={"Bienvenidos"}/> }
@@ -28,7 +33,22 @@ function App() {
               />
               <Route path ="/detail/:id" element= {<ItemDetailContainer/>}/>
               <Route path ="/carrito" element={<Cart/>} />
-              <Route path ="/admin" element={<ProductFormContainer/>} />
+            </Route>
+
+            {/* <Route path ="/admin" element={<ProductFormContainer/>} /> */}
+
+            <Route path= "/admin" element = {<AdminLayout />}>
+              <Route index element = {<Login />}/>
+
+              <Route path="alta-productos" 
+                element= {
+                  <RutaProtegida>
+                    <ProductFormContainer/>
+                  </RutaProtegida>
+                } 
+              />
+            </Route>
+
           </Routes>
           {/* <Footer/> */}
       </div>    
