@@ -2,12 +2,10 @@ footer {
     position: absolute;
     width:100%;
     color: white;
-    left:0%;
+    left:0;
     background-color: #d6a0fb;
     width: 100%;
-    margin:0;
-    padding: 0;
-    bottom: 0%;
+    bottom: 0;
 }
 
 

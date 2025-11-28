@@ -13,7 +13,7 @@ export const Cart = () => {
         {cart.length ? (
             cart.map ((prod) => (
                 <Item key ={prod.id} {...prod}>
-                    <span>Cantidad: {prod.quantity}</span>
+                    <span className="color">Cantidad: {prod.quantity}</span>
                     <button className="btn" onClick={() => deleteItem(prod.id)}>
                         Eliminar
                     </button>
